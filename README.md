@@ -6,4 +6,4 @@
 - 在原基础上使用HTML5的诸多标签和特性
 - 使用flex完成布局
 
-[锋利的jQuery源码地址](ttps://github.com/cssrain/Sharp-jQuery-Source)
+[锋利的jQuery源码地址](https://github.com/cssrain/Sharp-jQuery-Source)
