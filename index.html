@@ -9,8 +9,150 @@
     <script src="scripts/jquery.jqzoom.js"></script>
     <script src="scripts/jquery.simplemodal.js"></script>
     <script src="scripts/jquery.thickbox.js"></script>
+    <style>
+        /*重置所有默认属性*/
+        body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+        body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+        h1,h2,h3,h4,h5,h6{font-size:100%;}
+        address,cite,dfn,em,var{font-style:normal;}
+        code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+        small{font-size:12px;}
+        ul,ol{list-style:none;}
+        a{text-decoration:none;}
+        a:hover{text-decoration:underline;}
+        sup{vertical-align:text-top;}
+        sub{vertical-align:text-bottom;}
+        legend{color:#000;}
+        fieldset,img{border:0;}
+        button,input,select,textarea{font-size:100%;}
+        table{border-collapse:collapse;border-spacing:0;}
+        .clear{clear: both;float: none;height: 0;overflow: hidden;}
+        html .hide{display:none;}
+
+        /*此处开始header的布局设计*/
+        header {
+            background: #4A4A4A;
+            height: 105px;
+            margin: 0 auto;
+            width: 960px;
+        }
+
+
+        header .logo {
+            float: left;
+            margin: 10px 0 0 10px;
+            color: #fff;
+            height: 59px;
+        }
+
+
+        header .search {
+            float: left;
+            margin-left: 20px;
+            position: relative;
+            margin-top: 25px;
+        }
+
+        #skin {
+            display: block;
+            float: right;
+            margin: 10px;
+            padding: 4px;
+            width: 120px;
+        }
+
+        #skin li {
+            float: left;
+            overflow: hidden;
+            margin-right: 4px;
+            text-indent: -9999px;
+            background-image:url("images/theme.gif");
+            height: 15px;
+            cursor: pointer;
+        }
+
+        .mainNav {
+            position: absolute;
+            top: 68px;
+            left: 204px;
+            height: 37px;
+            line-height: 37px;
+            width: 960px;
+            z-index:100;
+            background-color: #4A4A4A;
+            overflow: hidden;
+        }
+        .mainNav .nav {
+            float: left;
+            display: inline;
+        }
+        .mainNav ul li {
+            float: left;
+            font-size: 14px;
+            font-weight: 700;
+            margin-right: 12px;
+            margin-right: 4px;
+        }
+
+        .mainNav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .mainNav ul li a:hover{
+            background: none;
+        }
+
+        main {
+            width: 960px;
+            margin: 0 auto;
+            height: 400px;
+            background-color: black;
+        }
+        footer {
+            width: 960px;
+            margin: 0 auto;
+            height: 50px;
+            background-color: blanchedalmond;
+        }
+        footer #copy_statement {
+            text-align: center;
+            font-size: larger;
+            font-weight: bold;
+            line-height: 50px;
+        }
+
+
+    </style>
 </head>
 <body>
+    <header>
+        <a class="logo" href="#nogo"><img src="images/logo.gif" alt="JaneShop"/></a>
+        <div class="search">
+            <input type="search" id="inputSearch" placeholder="请输入商铺名称" />
+        </div>
+        <ul id="skin">
+            <li id="skin_0" title="蓝色" class="skin_selected">蓝色</li>
+            <li id="skin_1" title="紫色">紫色</li>
+            <li id="skin_2" title="红色">红色</li>
+            <li id="skin_3" title="天蓝色">天蓝色</li>
+            <li id="skin_4" title="橙色">橙色</li>
+            <li id="skin_5" title="淡绿色">淡绿色</li>
+        </ul>
+        <nav id="nav" class="mainNav">
+            <ul class="nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">女装</a></li>
+                <li><a href="#">男装</a></li>
+                <li><a href="#">鞋包佩饰</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
+    </main>
+    <footer>
+        <div id="copy_statement">Copyright &copy; 2009 - 2012 JaneShop Inc. </div>
+    </footer>
 </body>
 </html>
