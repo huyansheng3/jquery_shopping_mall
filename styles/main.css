@@ -133,6 +133,7 @@ footer #copy_statement {
     margin-left: 10px;
     width: 230px;
     background-color: orangered;
+    overflow: hidden;
 }
 
 #brand {
@@ -206,6 +207,10 @@ footer #copy_statement {
     text-decoration: none;
 }
 
+#detail_pic {
+    overflow: hidden;
+}
+
 
 #detail_info {
     border: 1px solid #6e6e6e;
@@ -263,7 +268,10 @@ footer #copy_statement {
     margin-left: 10px;
     margin-right: 3px;
     margin-top: 4px;
+    overflow: hidden;
+    height: 200px;
 }
+
 
 #brand_list li {
     float: left;
@@ -276,3 +284,31 @@ footer #copy_statement {
     text-align: center;
     font-size: 16px;
 }
+
+
+.JS_css3 {
+    -webkit-transition:1s  all;
+    -moz-transition:1s  all;
+    transition: 1s all;
+    z-index: -1;
+}
+.JS_css3:hover {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    transform: rotate(720deg);
+}
+
+.catalogInfo li .hot {
+    background: url('../images/hot.gif') no-repeat scroll 0 0 transparent;
+    height: 16px;
+    position: absolute;
+    top:0;
+    width: 21px;
+}
+
+.chos {
+    background-color: #FA5889;
+    color: #FFFFFF;
+    outline: 0 none;
+}
+
