@@ -10,6 +10,8 @@
 
 ![已完成效果展示](http://ww1.sinaimg.cn/large/be9f6212jw1f7y45ahiavj211y0kgacm.jpg)
 
+![布局填充完成效果图](http://ww1.sinaimg.cn/large/be9f6212jw1f7yn8s4z81j211y0kg77r.jpg)
+
 ![实际效果图](http://ww4.sinaimg.cn/large/be9f6212jw1f7y45m5httj211y0kggp4.jpg)
 
 
